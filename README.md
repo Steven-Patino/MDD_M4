@@ -99,3 +99,29 @@ The hybrid approach combines **ACID compliance from SQL** with **flexibility and
 ```bash
 git clone https://github.com/Steven-Patino/MDD_M4
 cd MDD_M4-migration
+````
+#### 2️⃣ Install dependencies
+npm install
+
+#### 3️⃣ Configure Environment Variables
+
+Create a .env file in the root directory:
+
+PORT=3000
+
+# SQL Database
+DB_SQL_HOST=
+DB_SQL_USER=
+DB_SQL_PASS=
+DB_SQL_NAME=
+
+# MongoDB
+MONGO_URI=mongodb://localhost:27017/mdd_m4
+
+
+#### 4️⃣ Run the project
+npm start
+
+The application will run at:
+
+http://localhost:3000
