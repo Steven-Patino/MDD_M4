@@ -97,5 +97,5 @@ The hybrid approach combines **ACID compliance from SQL** with **flexibility and
 #### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/megastore-migration.git
-cd megastore-migration
+git clone https://github.com/Steven-Patino/MDD_M4
+cd MDD_M4-migration
